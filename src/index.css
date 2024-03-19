@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.google-logo {
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 560px
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-bar {
+    display: flex;
+    z-index: 10;
+    position: relative;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+}
+
+.search-button,
+.feeling-lucky {
+    margin-top: 10px;
+    padding: 10px 16px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+
+.search-button:hover,
+.feeling-lucky:hover {
+    background-color: #f1f3f4;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #ffffff;
+}
+
+.logo img {
+    width: 92px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.signin-button {
+    margin-left: 20px;
+}
+
+.signin {
+    padding: 8px 16px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    background-color: #257acf;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+
+#appIcon {
+    max-width: 35px;
+}
